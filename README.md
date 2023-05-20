@@ -61,4 +61,48 @@
    27  ls
    28  git history
    29  history
+# Bunde 2
+  # Exercise 1
+  1  git checkout -b ft/bundle-2
+  2  vi services.html
+  3  git add services.html
+  4  git commit -m "new"
+  5  git push origin ft/bundle-2
+  6  git checkout main
+  7  git pull
+  # Exercise 2
+  1  git checkout -b ft/service-redesign
+  2  ls
+  3  vi services.html
+  4  git add service.html
+  5  mv services.html service.html
+  6  ls
+  7  git add service.html
+  8  git commit -m "new"
+  9  git push origin ft/service-redesign
+  10  git checkout main
+  11  vi service.html
+  12  git pull
+  13  ls
+  14  vi service.html
+  15  git add service.html
+  16  git commit -m "new"
+  17  git push origin main
+  18  git pull
+  19  git checkout ft/service-redesign
+  20  git checkout ft/service-redesign
+  21  git status
+  22  vi service.html
+  23  git add service.html
+  24  git commit -m "resolved"
+  25  git push origin
+  26  git pull
+  27  vi service.html
+  28  git commit -m "resolved"
+  29  vi service.html
+  30  git add service.html
+  31  git commit -m "resolved"
+  32  git push origin main
+  33  git merge ft/service-redesign
+  34  history
 

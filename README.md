@@ -141,4 +141,13 @@
   3  git checkout main
   4  vi README.md
   5  history
-
+  6  vi README.md
+  7  git status
+  8  git add README.md
+  9  git commit -m "edited"
+  10  git push
+  11  git checkout -b ft/home-page-redesign
+  12  git checkout ft/home-page-redesign
+  13  git rebase main
+  14  history
+ 

@@ -155,4 +155,12 @@
   3  git remote add git-copy https://github.com/dinma773-3/copy-of-Gym-Git-Exercise-Solution.git
   4  ls
   5  history
+  8  vi README.md
+  9  git add .
+  10  git commit -m "edited"
+  11  git push origin main
+  12  git push git-copy main
+  # Exercise 2
+  1  git checkout -b ft/footer
+  2  history
 

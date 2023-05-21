@@ -106,3 +106,39 @@
   33  git merge ft/service-redesign
   34  history
 
+# Bundle 3
+  # Exercise 1
+  1  git checkout -b ft/team-page
+  2  vi team.html
+  3  rm team.html
+  4  vi team.html
+  5  git add team.html
+  6  git commit -m "new"
+  7  git push origin ft/team-page
+  8  git checkout main
+  9  git checkout -b ft/contact-page
+  10  git checkout ft/team-page
+  11  git log
+  12  git checkout ft/contact-page
+  13  git cherry-pick 447696a3307fff045bc51180c10029c7f9abe24a
+  14  ls
+  15  vi 1-index.html
+  16  git add .
+  17  git commit -m "new"
+  18  git push origin ft/contact-page
+  19  git checkout -b ft/faq-page
+  20  vi faq.html
+  21  git add faq.html
+  22  git commit -m "new"
+  23  git push origin ft/faq-page
+  24  git revert 447696a3307fff045bc51180c10029c7f9abe24a
+  25  git push origin ft/team-page
+  26  history
+  # Exercise 2
+  cd project
+  1  git branch
+  2  git checkout -b ft/home-page-redesign
+  3  git checkout main
+  4  vi README.md
+  5  history
+

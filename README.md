@@ -141,4 +141,18 @@
   3  git checkout main
   4  vi README.md
   5  history
+  6  vi README.md
+  7  git add README.md
+  8  git commit -m "edited"
+  9  git push
+  10  git push --set-upstream origin ft/home-page-redesign
+  12  ls
+
+# Bundle 4
+  # Exercise 1
+  1  git checkout main
+  2  git remote add git-copyhttps://github.com/dinma773-3/copy-of-Gym-Git-Exercise-Solution.git
+  3  git remote add git-copy https://github.com/dinma773-3/copy-of-Gym-Git-Exercise-Solution.git
+  4  ls
+  5  history
 

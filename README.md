@@ -163,4 +163,8 @@
   # Exercise 2
   1  git checkout -b ft/footer
   2  history
-
+  3  vi README.md
+  4  gti add .
+  5  git add .
+  6  git commit -m "new"
+  8  history
